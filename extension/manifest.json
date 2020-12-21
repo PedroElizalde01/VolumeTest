@@ -2,6 +2,11 @@
   "name": "VolumeExtension",
   "version": "1.0.0",
   "manifest_version": 2,
+  "description": "Controlar volumen de pestañas",
+  "permissions": [
+    "activeTab",
+    "tabCapture"
+  ],
   "browser_action": {
     "default_popup": "popup.html",
     "default_title": "VolumeExtension"
